@@ -30,18 +30,23 @@
                 :hp 7}])
 
 (def traps [{:type "None"
-             :description "Luckily, there is no trap in this room. You get a chance to have a little break and heal 1d4 hit points."}
+             :description "Luckily, there is no trap in this room. You get a chance to have a little break and heal
+                           1d4 hit points."}
             {:type "None"
-             :description "Luckily, there is no trap in this room. You get a chance to have a little break and heal 1d4 hit points."}
+             :description "Luckily, there is no trap in this room. You get a chance to have a little break and heal
+                           1d4 hit points."}
             {:type "None"
-             :description "Luckily, there is no trap in this room. You get a chance to have a little break and heal 1d4 hit points."}
+             :description "Luckily, there is no trap in this room. You get a chance to have a little break and heal
+                           1d4 hit points."}
             {:type "AITW"
-             :description "There are holes on the wall which indicate shooting arrows at anyone who passes the location of the holes."
+             :description "There are holes on the wall which indicate shooting arrows at anyone who passes the
+                           location of the holes."
              :sc "PERCEPTION"
              :dc 15
              :hp "1d4"}
             {:type "WFTD"
-             :description "The floor has a wooden trap door which opens once stepped on it. Underneath the trap, there is a drop of four feet and in the bottom of the pit there are metallic spikes at the bottom."
+             :description "The floor has a wooden trap door which opens once stepped on it. Underneath the trap, there
+                           is a drop of four feet and in the bottom of the pit there are metallic spikes at the bottom."
              :sc "PERCEPTION"
              :dc 10
              :hp "1d4"}])

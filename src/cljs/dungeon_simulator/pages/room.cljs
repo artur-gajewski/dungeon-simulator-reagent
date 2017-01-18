@@ -17,7 +17,8 @@
           (:description @state/trap)]
          (when-not (= (:type @state/trap) "None")
            [:p
-            "Make a " (:sc @state/trap) " check for DC " (:dc @state/trap) ". If you fail, make a DEXTERITY SAVE throw. Failing to succeed on DEXTERITY SAVE will cause you loss of " (:hp @state/trap) " hit points."])])
+            "Make a " (:sc @state/trap) " check for DC " (:dc @state/trap) ". If you fail, make a DEXTERITY SAVE throw.
+             Failing to succeed on DEXTERITY SAVE will cause you loss of " (:hp @state/trap) " hit points."])])
 
    [:div
     [:p
@@ -25,9 +26,12 @@
 
     [:p
      (if (< (:distance @state/monster) 6)
-       (str "Because the " (:type @state/monster) " is so close to you, you are surprised. " (:type @state/monster) " wins initiative.")
+       (str "Because the " (:type @state/monster) " is so close to you, you are surprised. "
+            (:type @state/monster) " wins initiative.")
        (if (= (:is-aware @state/monster) false)
-         (str "The " (:type @state/monster) " hasn't noticed you yet. If you wish, you can make a STEALTH check if you wish to sneak next to it and make a surprise attack. If you fail, throw initiative and commence combat with the monster.")
+         (str "The " (:type @state/monster) " hasn't noticed you yet. If you wish, you can make a STEALTH check if you
+               wish to sneak next to it and make a surprise attack. If you fail, throw initiative and commence combat
+               with the monster.")
          (str (:type @state/monster) " noticed you and attacks. Throw initiative and commence combat with the monster.")))]])
 
    [:div
