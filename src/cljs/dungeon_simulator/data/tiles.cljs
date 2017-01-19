@@ -1,6 +1,6 @@
 (ns dungeon-simulator.data.tiles)
 
-(def tiles [{:roll-from 0
+(def tiles [{:roll-from 1
              :roll-to 10
              :type "STRA"
              :description "You arrive at a straight tunnel."}
