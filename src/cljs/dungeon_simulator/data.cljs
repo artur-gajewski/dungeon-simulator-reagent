@@ -17,7 +17,7 @@
             {:type "DOST"
              :description "There are stairs leading downwards."}
             {:type "HURO"
-             :description "You find yourself in a huge cavernous room"}
+             :description "You find yourself in a huge cavernous room."}
             {:type "LARO"
              :description "You arrive at a large room."}])
 
@@ -31,32 +31,26 @@
 
                {:type "Goblin"
                 :distance 5
-                :is-suprised false
                 :hp 6}
                
                {:type "Hobgoblin"
                 :distance 5
-                :is-suprised false
                 :hp 7}
                
                {:type "Kobold"
                 :distance 5
-                :is-suprised false
                 :hp 4}
 
                {:type "Skeleton"
                 :distance 5
-                :is-suprised false
                 :hp 5}
                
                {:type "Orc"
                 :distance 5
-                :is-suprised false
                 :hp 7}
 
                {:type "Zombie"
                 :distance 5
-                :is-suprised false
                 :hp 8}])
 
 (def traps [{:type "None"

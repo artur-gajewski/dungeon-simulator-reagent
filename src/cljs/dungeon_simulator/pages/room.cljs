@@ -7,8 +7,7 @@
    [title/render (str "Room #" @state/progress)]
 
    [:div
-    [:p (:description @state/tile)]
-    [:p @state/action-type]]
+    [:p (:description @state/tile)]]
 
    (if (= (:type @state/monster) "None")
      (when (= (:type @state/tile) "S")
