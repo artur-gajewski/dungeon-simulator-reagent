@@ -1,6 +1,6 @@
 (ns dungeon-simulator.data.monsters)
 
-(def monsters [{:roll-from 0
+(def monsters [{:roll-from 1
                 :roll-to 49
                 :type "None"}
 
