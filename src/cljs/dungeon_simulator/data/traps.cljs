@@ -1,6 +1,6 @@
 (ns dungeon-simulator.data.traps)
 
-(def traps [{:roll-from 0
+(def traps [{:roll-from 1
              :roll-to 19
              :type "None"
              :description "You find no traps here."}
@@ -48,15 +48,15 @@
              :hp "1d4-1"}])
 
             {:roll-from 98
-             :roll-to 98
+             :roll-to 99
              :type "FIBS"
              :description "A small pressure plate is in the ground. When stepped on, a nozzle on the wall launches a torrent of flame."
              :sc "PERCEPTION"
              :dc 14
              :hp "1d6"}
             
-            {:roll-from 99
-             :roll-to 99
+            {:roll-from 100
+             :roll-to 100
              :type "CORO"
              :description "There is a trip wire set up across the place, which is stretched between two support beams. The beams
                            are in bad shape and there are loose rocks lodged above them."
