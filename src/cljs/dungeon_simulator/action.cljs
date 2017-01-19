@@ -1,12 +1,14 @@
 (ns dungeon-simulator.action
   (:require [dungeon-simulator.state :as state]
-            [dungeon-simulator.data :as data]))
+            [dungeon-simulator.data.tiles :as tiles]
+            [dungeon-simulator.data.traps :as traps]
+            [dungeon-simulator.data.monsters :as monsters]))
 
 (defn create-new-tile []
   (reset! state/progress (inc @state/progress))
-  (reset! state/tile (rand-nth data/tiles))
-  (reset! state/monster (rand-nth data/monsters))
-  (reset! state/trap (rand-nth data/traps))
+  (reset! state/tile (rand-nth tiles/tiles))
+  (reset! state/monster (rand-nth monsters/monsters))
+  (reset! state/trap (rand-nth traps/traps))
 
   (let [distance (+ (rand-int 5) 5)
         monster-is-aware (rand-int 2)
