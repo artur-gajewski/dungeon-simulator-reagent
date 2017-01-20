@@ -9,12 +9,12 @@
                 :type "Rat"
                 :xp 80
                 :distance -1
+                :initiative +1
                 :ac 0
                 :hp {:static 8
                      :roll-amount 2
                      :roll-sides 8}
-                :stats {:speed 0
-                        :strength 0
+                :stats {:strength 0
                         :dexterity 0
                         :constitution 0
                         :intelligence 0
@@ -52,12 +52,12 @@
                 :type "Giant Spider"
                 :xp 0
                 :distance -1
+                :initiative +1
                 :ac 0
                 :hp {:static 8
                      :roll-amount 2
                      :roll-sides 8}
-                :stats {:speed 0
-                        :strength 0
+                :stats {:strength 0
                         :dexterity 0
                         :constitution 0
                         :intelligence 0
@@ -95,12 +95,12 @@
                 :type "Bat"
                 :xp 0
                 :distance -1
+                :initiative +1
                 :ac 0
                 :hp {:static 8
                      :roll-amount 2
                      :roll-sides 8}
-                :stats {:speed 0
-                        :strength 0
+                :stats {:strength 0
                         :dexterity 0
                         :constitution 0
                         :intelligence 0
@@ -138,12 +138,12 @@
                 :type "Snake"
                 :xp 0
                 :distance -1
+                :initiative +1
                 :ac 0
                 :hp {:static 8
                      :roll-amount 2
                      :roll-sides 8}
-                :stats {:speed 0
-                        :strength 0
+                :stats {:strength 0
                         :dexterity 0
                         :constitution 0
                         :intelligence 0
@@ -181,12 +181,12 @@
                 :type "Ghost"
                 :xp 0
                 :distance -1
+                :initiative +1
                 :ac 0
                 :hp {:static 8
                      :roll-amount 2
                      :roll-sides 8}
-                :stats {:speed 0
-                        :strength 0
+                :stats {:strength 0
                         :dexterity 0
                         :constitution 0
                         :intelligence 0
@@ -224,12 +224,12 @@
                 :type "Minor Demon"
                 :xp 0
                 :distance -1
+                :initiative +1
                 :ac 0
                 :hp {:static 8
                      :roll-amount 2
                      :roll-sides 8}
-                :stats {:speed 0
-                        :strength 0
+                :stats {:strength 0
                         :dexterity 0
                         :constitution 0
                         :intelligence 0
@@ -267,12 +267,12 @@
                 :type "Goblin"
                 :xp 0
                 :distance -1
+                :initiative +1
                 :ac 0
                 :hp {:static 8
                      :roll-amount 2
                      :roll-sides 8}
-                :stats {:speed 0
-                        :strength 0
+                :stats {:strength 0
                         :dexterity 0
                         :constitution 0
                         :intelligence 0
@@ -310,12 +310,12 @@
                 :type "Hobgoblin"
                 :xp 0
                 :distance -1
+                :initiative +1
                 :ac 0
                 :hp {:static 8
                      :roll-amount 2
                      :roll-sides 8}
-                :stats {:speed 0
-                        :strength 0
+                :stats {:strength 0
                         :dexterity 0
                         :constitution 0
                         :intelligence 0
@@ -353,12 +353,12 @@
                 :type "Kobold"
                 :xp 0
                 :distance -1
+                :initiative +1
                 :ac 0
                 :hp {:static 8
                      :roll-amount 2
                      :roll-sides 8}
-                :stats {:speed 0
-                        :strength 0
+                :stats {:strength 0
                         :dexterity 0
                         :constitution 0
                         :intelligence 0
@@ -396,12 +396,12 @@
                 :type "Skeleton"
                 :xp 0
                 :distance -1
+                :initiative +1
                 :ac 0
                 :hp {:static 8
                      :roll-amount 2
                      :roll-sides 8}
-                :stats {:speed 0
-                        :strength 0
+                :stats {:strength 0
                         :dexterity 0
                         :constitution 0
                         :intelligence 0
@@ -439,12 +439,12 @@
                 :type "Orc"
                 :xp 0
                 :distance -1
+                :initiative +1
                 :ac 0
                 :hp {:static 8
                      :roll-amount 2
                      :roll-sides 8}
-                :stats {:speed 0
-                        :strength 0
+                :stats {:strength 0
                         :dexterity 0
                         :constitution 0
                         :intelligence 0
@@ -482,12 +482,12 @@
                 :type "Ghoul"
                 :xp 0
                 :distance -1
+                :initiative +1
                 :ac 0
                 :hp {:static 8
                      :roll-amount 2
                      :roll-sides 8}
-                :stats {:speed 0
-                        :strength 0
+                :stats {:strength 0
                         :dexterity 0
                         :constitution 0
                         :intelligence 0
@@ -525,12 +525,12 @@
                 :type "Zombie"
                 :xp 0
                 :distance -1
+                :initiative +1
                 :ac 0
                 :hp {:static 8
                      :roll-amount 2
                      :roll-sides 8}
-                :stats {:speed 0
-                        :strength 0
+                :stats {:strength 0
                         :dexterity 0
                         :constitution 0
                         :intelligence 0
