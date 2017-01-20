@@ -50,7 +50,7 @@
                {:roll-from 54
                 :roll-to 57
                 :type "Giant Spider"
-                :xp: 0
+                :xp 0
                 :distance -1
                 :ac 0
                 :hp {:static 8
@@ -93,7 +93,7 @@
                {:roll-from 58
                 :roll-to 61
                 :type "Bat"
-                :xp: 0
+                :xp 0
                 :distance -1
                 :ac 0
                 :hp {:static 8
@@ -136,7 +136,7 @@
                {:roll-from 62
                 :roll-to 65
                 :type "Snake"
-                :xp: 0
+                :xp 0
                 :distance -1
                 :ac 0
                 :hp {:static 8
@@ -179,7 +179,7 @@
                {:roll-from 66
                 :roll-to 69
                 :type "Ghost"
-                :xp: 0
+                :xp 0
                 :distance -1
                 :ac 0
                 :hp {:static 8
@@ -222,7 +222,7 @@
                {:roll-from 70
                 :roll-to 73
                 :type "Minor Demon"
-                :xp: 0
+                :xp 0
                 :distance -1
                 :ac 0
                 :hp {:static 8
@@ -265,7 +265,7 @@
                {:roll-from 74
                 :roll-to 77
                 :type "Goblin"
-                :xp: 0
+                :xp 0
                 :distance -1
                 :ac 0
                 :hp {:static 8
@@ -308,7 +308,7 @@
                {:roll-from 78
                 :roll-to 81
                 :type "Hobgoblin"
-                :xp: 0
+                :xp 0
                 :distance -1
                 :ac 0
                 :hp {:static 8
@@ -351,7 +351,7 @@
                {:roll-from 82
                 :roll-to 85
                 :type "Kobold"
-                :xp: 0
+                :xp 0
                 :distance -1
                 :ac 0
                 :hp {:static 8
@@ -394,7 +394,7 @@
                {:roll-from 86
                 :roll-to 89
                 :type "Skeleton"
-                :xp: 0
+                :xp 0
                 :distance -1
                 :ac 0
                 :hp {:static 8
@@ -437,7 +437,7 @@
                {:roll-from 90
                 :roll-to 93
                 :type "Orc"
-                :xp: 0
+                :xp 0
                 :distance -1
                 :ac 0
                 :hp {:static 8
@@ -480,7 +480,7 @@
                {:roll-from 94
                 :roll-to 97
                 :type "Ghoul"
-                :xp: 0
+                :xp 0
                 :distance -1
                 :ac 0
                 :hp {:static 8
@@ -523,7 +523,7 @@
                {:roll-from 98
                 :roll-to 100
                 :type "Zombie"
-                :xp: 0
+                :xp 0
                 :distance -1
                 :ac 0
                 :hp {:static 8
@@ -561,4 +561,4 @@
                                    :hit {:static 10
                                          :roll-amount 1
                                          :roll-sides 6
-                                         :roll-modifier +4}}]}}}])
+                                         :roll-modifier +4}}]}}])
