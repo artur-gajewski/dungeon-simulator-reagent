@@ -49,4 +49,3 @@
              :roll-to 100
              :type "LARO"
              :description "You arrive at a large room."}])
-

@@ -1,5 +1,5 @@
 (defproject dungeon-simulator "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
+  :description "Dungeon Simulator for role playing games"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
@@ -63,13 +63,7 @@
               :output-dir "target/cljsbuild/public/js/out"
               :source-map true
               :optimizations :none
-              :pretty-print  true}}
-
-
-
-            }
-   }
-
+              :pretty-print  true}}}}
 
   :figwheel
   {:http-server-root "public"
@@ -79,8 +73,6 @@
                       ]
    :css-dirs ["resources/public/css"]
    :ring-handler dungeon-simulator.handler/app}
-
-
 
   :profiles {:dev {:repl-options {:init-ns dungeon-simulator.repl}
 
