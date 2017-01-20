@@ -9,17 +9,17 @@
                 :type "Rat"
                 :xp 80
                 :distance -1
-                :initiative +1
+                :initiative-modifier +1
                 :ac 0
                 :hp {:static 8
                      :roll-amount 2
                      :roll-sides 8}
-                :stats {:strength 0
-                        :dexterity 0
-                        :constitution 0
-                        :intelligence 0
-                        :wisdom 0
-                        :charisma 0}
+                :skills {:strength 0
+                         :dexterity 0
+                         :constitution 0
+                         :intelligence 0
+                         :wisdom 0
+                         :charisma 0}
                 :senses [{:type "Passive Perception"
                           :value "10"
                           :unit ""}
@@ -52,17 +52,17 @@
                 :type "Giant Spider"
                 :xp 0
                 :distance -1
-                :initiative +1
+                :initiative-modifier +1
                 :ac 0
                 :hp {:static 8
                      :roll-amount 2
                      :roll-sides 8}
-                :stats {:strength 0
-                        :dexterity 0
-                        :constitution 0
-                        :intelligence 0
-                        :wisdom 0
-                        :charisma 0}
+                :skills {:strength 0
+                         :dexterity 0
+                         :constitution 0
+                         :intelligence 0
+                         :wisdom 0
+                         :charisma 0}
                 :senses [{:type "Passive Perception"
                           :value "10"
                           :unit ""}
@@ -95,17 +95,17 @@
                 :type "Bat"
                 :xp 0
                 :distance -1
-                :initiative +1
+                :initiative-modifier +1
                 :ac 0
                 :hp {:static 8
                      :roll-amount 2
                      :roll-sides 8}
-                :stats {:strength 0
-                        :dexterity 0
-                        :constitution 0
-                        :intelligence 0
-                        :wisdom 0
-                        :charisma 0}
+                :skills {:strength 0
+                         :dexterity 0
+                         :constitution 0
+                         :intelligence 0
+                         :wisdom 0
+                         :charisma 0}
                 :senses [{:type "Passive Perception"
                           :value "10"
                           :unit ""}
@@ -138,17 +138,17 @@
                 :type "Snake"
                 :xp 0
                 :distance -1
-                :initiative +1
+                :initiative-modifier +1
                 :ac 0
                 :hp {:static 8
                      :roll-amount 2
                      :roll-sides 8}
-                :stats {:strength 0
-                        :dexterity 0
-                        :constitution 0
-                        :intelligence 0
-                        :wisdom 0
-                        :charisma 0}
+                :skills {:strength 0
+                         :dexterity 0
+                         :constitution 0
+                         :intelligence 0
+                         :wisdom 0
+                         :charisma 0}
                 :senses [{:type "Passive Perception"
                           :value "10"
                           :unit ""}
@@ -181,17 +181,17 @@
                 :type "Ghost"
                 :xp 0
                 :distance -1
-                :initiative +1
+                :initiative-modifier +1
                 :ac 0
                 :hp {:static 8
                      :roll-amount 2
                      :roll-sides 8}
-                :stats {:strength 0
-                        :dexterity 0
-                        :constitution 0
-                        :intelligence 0
-                        :wisdom 0
-                        :charisma 0}
+                :skills {:strength 0
+                         :dexterity 0
+                         :constitution 0
+                         :intelligence 0
+                         :wisdom 0
+                         :charisma 0}
                 :senses [{:type "Passive Perception"
                           :value "10"
                           :unit ""}
@@ -224,17 +224,17 @@
                 :type "Minor Demon"
                 :xp 0
                 :distance -1
-                :initiative +1
+                :initiative-modifier +1
                 :ac 0
                 :hp {:static 8
                      :roll-amount 2
                      :roll-sides 8}
-                :stats {:strength 0
-                        :dexterity 0
-                        :constitution 0
-                        :intelligence 0
-                        :wisdom 0
-                        :charisma 0}
+                :skills {:strength 0
+                         :dexterity 0
+                         :constitution 0
+                         :intelligence 0
+                         :wisdom 0
+                         :charisma 0}
                 :senses [{:type "Passive Perception"
                           :value "10"
                           :unit ""}
@@ -267,17 +267,17 @@
                 :type "Goblin"
                 :xp 0
                 :distance -1
-                :initiative +1
+                :initiative-modifier +1
                 :ac 0
                 :hp {:static 8
                      :roll-amount 2
                      :roll-sides 8}
-                :stats {:strength 0
-                        :dexterity 0
-                        :constitution 0
-                        :intelligence 0
-                        :wisdom 0
-                        :charisma 0}
+                :skills {:strength 0
+                         :dexterity 0
+                         :constitution 0
+                         :intelligence 0
+                         :wisdom 0
+                         :charisma 0}
                 :senses [{:type "Passive Perception"
                           :value "10"
                           :unit ""}
@@ -310,17 +310,17 @@
                 :type "Hobgoblin"
                 :xp 0
                 :distance -1
-                :initiative +1
+                :initiative-modifier +1
                 :ac 0
                 :hp {:static 8
                      :roll-amount 2
                      :roll-sides 8}
-                :stats {:strength 0
-                        :dexterity 0
-                        :constitution 0
-                        :intelligence 0
-                        :wisdom 0
-                        :charisma 0}
+                :skills {:strength 0
+                         :dexterity 0
+                         :constitution 0
+                         :intelligence 0
+                         :wisdom 0
+                         :charisma 0}
                 :senses [{:type "Passive Perception"
                           :value "10"
                           :unit ""}
@@ -353,17 +353,17 @@
                 :type "Kobold"
                 :xp 0
                 :distance -1
-                :initiative +1
+                :initiative-modifier +1
                 :ac 0
                 :hp {:static 8
                      :roll-amount 2
                      :roll-sides 8}
-                :stats {:strength 0
-                        :dexterity 0
-                        :constitution 0
-                        :intelligence 0
-                        :wisdom 0
-                        :charisma 0}
+                :skills {:strength 0
+                         :dexterity 0
+                         :constitution 0
+                         :intelligence 0
+                         :wisdom 0
+                         :charisma 0}
                 :senses [{:type "Passive Perception"
                           :value "10"
                           :unit ""}
@@ -396,17 +396,17 @@
                 :type "Skeleton"
                 :xp 0
                 :distance -1
-                :initiative +1
+                :initiative-modifier +1
                 :ac 0
                 :hp {:static 8
                      :roll-amount 2
                      :roll-sides 8}
-                :stats {:strength 0
-                        :dexterity 0
-                        :constitution 0
-                        :intelligence 0
-                        :wisdom 0
-                        :charisma 0}
+                :skills {:strength 0
+                         :dexterity 0
+                         :constitution 0
+                         :intelligence 0
+                         :wisdom 0
+                         :charisma 0}
                 :senses [{:type "Passive Perception"
                           :value "10"
                           :unit ""}
@@ -439,17 +439,17 @@
                 :type "Orc"
                 :xp 0
                 :distance -1
-                :initiative +1
+                :initiative-modifier +1
                 :ac 0
                 :hp {:static 8
                      :roll-amount 2
                      :roll-sides 8}
-                :stats {:strength 0
-                        :dexterity 0
-                        :constitution 0
-                        :intelligence 0
-                        :wisdom 0
-                        :charisma 0}
+                :skills {:strength 0
+                         :dexterity 0
+                         :constitution 0
+                         :intelligence 0
+                         :wisdom 0
+                         :charisma 0}
                 :senses [{:type "Passive Perception"
                           :value "10"
                           :unit ""}
@@ -482,17 +482,17 @@
                 :type "Ghoul"
                 :xp 0
                 :distance -1
-                :initiative +1
+                :initiative-modifier +1
                 :ac 0
                 :hp {:static 8
                      :roll-amount 2
                      :roll-sides 8}
-                :stats {:strength 0
-                        :dexterity 0
-                        :constitution 0
-                        :intelligence 0
-                        :wisdom 0
-                        :charisma 0}
+                :skills {:strength 0
+                         :dexterity 0
+                         :constitution 0
+                         :intelligence 0
+                         :wisdom 0
+                         :charisma 0}
                 :senses [{:type "Passive Perception"
                           :value "10"
                           :unit ""}
@@ -525,17 +525,17 @@
                 :type "Zombie"
                 :xp 0
                 :distance -1
-                :initiative +1
+                :initiative-modifier +1
                 :ac 0
                 :hp {:static 8
                      :roll-amount 2
                      :roll-sides 8}
-                :stats {:strength 0
-                        :dexterity 0
-                        :constitution 0
-                        :intelligence 0
-                        :wisdom 0
-                        :charisma 0}
+                :skills {:strength 0
+                         :dexterity 0
+                         :constitution 0
+                         :intelligence 0
+                         :wisdom 0
+                         :charisma 0}
                 :senses [{:type "Passive Perception"
                           :value "10"
                           :unit ""}
