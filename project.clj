@@ -63,7 +63,13 @@
               :output-dir "target/cljsbuild/public/js/out"
               :source-map true
               :optimizations :none
-              :pretty-print  true}}}}
+              :pretty-print  true}}
+            :prod
+            {:source-paths ["src/cljs"]
+             :compiler
+             {:output-to "resources/public/js/main.js"
+              :optimizations :advanced
+              :pretty-print false}}}}
 
   :figwheel
   {:http-server-root "public"

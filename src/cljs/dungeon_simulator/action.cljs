@@ -2,26 +2,23 @@
   (:require [dungeon-simulator.state :as state]
             [dungeon-simulator.data.tiles :as tiles]
             [dungeon-simulator.data.traps :as traps]
-            [dungeon-simulator.data.monsters :as monsters]))
+            [dungeon-simulator.data.monsters :as monsters]
+            [dungeon-simulator.tools :as tools]))
 
 (defn create-new-tile []
-  (reset! state/progress (inc @state/progress))
-  (reset! state/tile (rand-nth tiles/tiles))
-  (reset! state/monster (rand-nth monsters/monsters))
-  (reset! state/trap (rand-nth traps/traps))
+  (let [tile (tools/roll-from-data (tools/roll 1 100 0) tiles/tiles)
+        monster (tools/roll-from-data (tools/roll 1 100 0) monsters/monsters)
+        trap (tools/roll-from-data (tools/roll 1 100 0) traps/traps)
+        monster-distance (+ (rand-int 5) 5)
+        monster-is-aware (rand-int 2)]
 
-  (let [distance (+ (rand-int 5) 5)
-        monster-is-aware (rand-int 2)
-        action-type (rand-int 4)]
+    (reset! state/progress (inc @state/progress))
+    (reset! state/tile tile)
+    (reset! state/monster monster)
+    (reset! state/trap trap)
 
-    (swap! state/monster assoc :distance distance)
+    (swap! state/monster assoc :distance monster-distance)
 
     (cond
       (= monster-is-aware 0) (swap! state/monster assoc :is-aware false)
-      (= monster-is-aware 1) (swap! state/monster assoc :is-aware true))
-
-    (cond
-      (= action-type 0) (reset! state/action-type "nothing")
-      (= action-type 1) (reset! state/action-type "monster")
-      (= action-type 2) (reset! state/action-type "item")
-      (= action-type 3) (reset! state/action-type "trap"))))
+      (= monster-is-aware 1) (swap! state/monster assoc :is-aware true))))
