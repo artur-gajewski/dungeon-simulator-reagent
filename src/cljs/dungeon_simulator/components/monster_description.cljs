@@ -3,8 +3,8 @@
 
 (defn render [monster]
   [:div {:class "monster-description"}
-   [:p
-    [:table
+   [:table
+    [:tbody
      [:tr
       [:td {:class "npc-head-title"} (-> monster :type)]]
      [:tr
@@ -16,7 +16,5 @@
        " ("
        (-> monster :hp :roll-amount) "d" (-> monster :hp :roll-sides)
        ")"]]
-     [:tr
-      [:td [:span {:class "npc-head"} "Challenge"] " " (-> monster :xp) " XP"]]]]])
-
-
+      [:tr
+       [:td [:span {:class "npc-head"} "Challenge"] " " (-> monster :xp) " XP"]]]]])

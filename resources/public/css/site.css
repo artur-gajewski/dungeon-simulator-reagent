@@ -48,6 +48,10 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.monster-description {
+  margin-bottom: 20px;
+}
+
 .npc-head-title {
   font-size: 1.5em;
   font-weight: bold;

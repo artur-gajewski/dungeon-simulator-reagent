@@ -105,7 +105,7 @@
                           :unit "feet"}
                          {:type "Blindsense"
                           :value "15"
-                          :unit "feet"]
+                          :unit "feet"}]
                 :languages [{:type "Bat"
                              :description "Bat screams"}]
                 :weapons {:melee [{:description "Bite"
