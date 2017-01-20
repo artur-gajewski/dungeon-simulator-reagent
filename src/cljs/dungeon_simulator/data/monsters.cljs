@@ -235,62 +235,60 @@
                {:roll-from 74
                 :roll-to 77
                 :type "Goblin"
-                :xp 0
+                :xp 60
                 :distance -1
                 :initiative-modifier +1
-                :ac 0
-                :hp {:static 8
-                     :roll-amount 2
+                :ac 14
+                :hp {:static 5
+                     :roll-amount 1
                      :roll-sides 8}
-                :skills {:strength 0
-                         :dexterity 0
-                         :constitution 0
-                         :intelligence 0
-                         :wisdom 0
-                         :charisma 0}
+                :skills {:strength 10
+                         :dexterity 14
+                         :constitution 10
+                         :intelligence 10
+                         :wisdom 7
+                         :charisma 6}
                 :senses [{:type "Passive Perception"
                           :value "10"
                           :unit ""}
                          {:type "Darkvision"
                           :value "60"
                           :unit "feet"}]
-                :languages [{:type "common"
-                             :description "Common"}
-                            {:type "frogfolk"
-                             :description "Frogfolk, understands some Finnish"}]
-                :weapons {:melee [{:description "Greatclub"
-                                   :to-hit +6
+                :languages [{:type "goblin"
+                             :description "Goblin language"}]
+                :weapons {:melee [{:description "Short Sword"
+                                   :to-hit +2
                                    :reach {:value 5
                                            :unit "feet"}
-                                   :hit {:static 8
+                                   :hit {:static 2
                                          :roll-amount 1
-                                         :roll-sides 8
-                                         :roll-modifier +4}}]
-                          :range [{:description "Spear"
-                                   :to-hit +4
+                                         :roll-sides 4
+                                         :roll-modifier 0}}]
+                          :range [{:description "Short Bow"
+                                   :to-hit +2
                                    :reach {:value 30
                                            :unit "feet"}
-                                   :hit {:static 10
+                                   :hit {:static 2
                                          :roll-amount 1
-                                         :roll-sides 6
-                                         :roll-modifier +4}}]}}
+                                         :roll-sides 4
+                                         :roll-modifier 0}}]}}
 
                {:roll-from 78
                 :roll-to 81
                 :type "Hobgoblin"
-                :xp 0
+                :xp 205
                 :distance -1
                 :initiative-modifier +1
-                :ac 0
-                :hp {:static 8
+                :ac 15
+                :hp {:static 9
                      :roll-amount 2
                      :roll-sides 8}
-                :skills {:strength 0
-                         :dexterity 0
-                         :constitution 0
-                         :intelligence 0
-                         :wisdom 0
-                         :charisma 0}
+                :skills {:strength 14
+                         :dexterity 13
+                         :constitution 14
+                         :intelligence 11
+                         :wisdom 8
+                         :charisma 7}
                 :senses [{:type "Passive Perception"
                           :value "10"
                           :unit ""}
@@ -299,127 +297,115 @@
                           :unit "feet"}]
                 :languages [{:type "common"
                              :description "Common"}
-                            {:type "frogfolk"
-                             :description "Frogfolk, understands some Finnish"}]
-                :weapons {:melee [{:description "Greatclub"
-                                   :to-hit +6
+                            {:type "goblin"
+                             :description "Goblin language"}]
+                :weapons {:melee [{:description "Longsword"
+                                   :to-hit +2
                                    :reach {:value 5
                                            :unit "feet"}
-                                   :hit {:static 8
+                                   :hit {:static 5
                                          :roll-amount 1
                                          :roll-sides 8
-                                         :roll-modifier +4}}]
-                          :range [{:description "Spear"
-                                   :to-hit +4
+                                         :roll-modifier +1}}]
+                          :range [{:description "longbow"
+                                   :to-hit +2
                                    :reach {:value 30
                                            :unit "feet"}
-                                   :hit {:static 10
+                                   :hit {:static 5
                                          :roll-amount 1
-                                         :roll-sides 6
-                                         :roll-modifier +4}}]}}
+                                         :roll-sides 8
+                                         :roll-modifier +1}}]}}
 
                {:roll-from 82
                 :roll-to 85
                 :type "Kobold"
-                :xp 0
+                :xp 90
                 :distance -1
                 :initiative-modifier +1
-                :ac 0
-                :hp {:static 8
-                     :roll-amount 2
+                :ac 14
+                :hp {:static 4
+                     :roll-amount 1
                      :roll-sides 8}
-                :skills {:strength 0
-                         :dexterity 0
-                         :constitution 0
-                         :intelligence 0
-                         :wisdom 0
-                         :charisma 0}
+                :skills {:strength 7
+                         :dexterity 14
+                         :constitution 9
+                         :intelligence 8
+                         :wisdom 8
+                         :charisma 8}
                 :senses [{:type "Passive Perception"
                           :value "10"
                           :unit ""}
                          {:type "Darkvision"
                           :value "60"
                           :unit "feet"}]
-                :languages [{:type "common"
-                             :description "Common"}
-                            {:type "frogfolk"
-                             :description "Frogfolk, understands some Finnish"}]
-                :weapons {:melee [{:description "Greatclub"
-                                   :to-hit +6
+                :languages [{:type "draconic"
+                             :description "Draconic language, aka. Dragonspeak"}]
+                :weapons {:melee [{:description "Spear"
+                                   :to-hit +1
                                    :reach {:value 5
                                            :unit "feet"}
-                                   :hit {:static 8
-                                         :roll-amount 1
-                                         :roll-sides 8
-                                         :roll-modifier +4}}]
-                          :range [{:description "Spear"
-                                   :to-hit +4
-                                   :reach {:value 30
-                                           :unit "feet"}
-                                   :hit {:static 10
+                                   :hit {:static 3
                                          :roll-amount 1
                                          :roll-sides 6
-                                         :roll-modifier +4}}]}}
+                                         :roll-modifier -1}}]
+                          :range [{:description "Sling"
+                                   :to-hit +1
+                                   :reach {:value 30
+                                           :unit "feet"}
+                                   :hit {:static 1
+                                         :roll-amount 1
+                                         :roll-sides 3
+                                         :roll-modifier -1}}]}}
 
                {:roll-from 86
                 :roll-to 89
                 :type "Skeleton"
-                :xp 0
+                :xp 77
                 :distance -1
                 :initiative-modifier +1
-                :ac 0
-                :hp {:static 8
-                     :roll-amount 2
-                     :roll-sides 8}
-                :skills {:strength 0
-                         :dexterity 0
+                :ac 15
+                :hp {:static 3
+                     :roll-amount 1
+                     :roll-sides 6}
+                :skills {:strength 12
+                         :dexterity 10
                          :constitution 0
                          :intelligence 0
-                         :wisdom 0
-                         :charisma 0}
+                         :wisdom 9
+                         :charisma 7}
                 :senses [{:type "Passive Perception"
                           :value "10"
                           :unit ""}
                          {:type "Darkvision"
                           :value "60"
                           :unit "feet"}]
-                :languages [{:type "common"
-                             :description "Common"}
-                            {:type "frogfolk"
-                             :description "Frogfolk, understands some Finnish"}]
-                :weapons {:melee [{:description "Greatclub"
-                                   :to-hit +6
+                :languages [{:type "skeletal"
+                             :description "Doot Doot"}]
+                :weapons {:melee [{:description "Claw"
+                                   :to-hit 0
                                    :reach {:value 5
                                            :unit "feet"}
-                                   :hit {:static 8
-                                         :roll-amount 1
-                                         :roll-sides 8
-                                         :roll-modifier +4}}]
-                          :range [{:description "Spear"
-                                   :to-hit +4
-                                   :reach {:value 30
-                                           :unit "feet"}
-                                   :hit {:static 10
+                                   :hit {:static 2
                                          :roll-amount 1
                                          :roll-sides 6
-                                         :roll-modifier +4}}]}}
+                                         :roll-modifier -1}}]}}
 
                {:roll-from 90
                 :roll-to 93
                 :type "Orc"
-                :xp 0
+                :xp 155
                 :distance -1
                 :initiative-modifier +1
-                :ac 0
-                :hp {:static 8
-                     :roll-amount 2
+                :ac 12
+                :hp {:static 4
+                     :roll-amount 1
                      :roll-sides 8}
-                :skills {:strength 0
-                         :dexterity 0
-                         :constitution 0
-                         :intelligence 0
-                         :wisdom 0
-                         :charisma 0}
+                :skills {:strength 16
+                         :dexterity 12
+                         :constitution 14
+                         :intelligence 7
+                         :wisdom 8
+                         :charisma 6}
                 :senses [{:type "Passive Perception"
                           :value "10"
                           :unit ""}
@@ -428,41 +414,33 @@
                           :unit "feet"}]
                 :languages [{:type "common"
                              :description "Common"}
-                            {:type "frogfolk"
-                             :description "Frogfolk, understands some Finnish"}]
-                :weapons {:melee [{:description "Greatclub"
-                                   :to-hit +6
+                            {:type "orcish"
+                             :description "Orcish language"}]
+                :weapons {:melee [{:description "Battleaxe"
+                                   :to-hit +3
                                    :reach {:value 5
                                            :unit "feet"}
-                                   :hit {:static 8
-                                         :roll-amount 1
-                                         :roll-sides 8
-                                         :roll-modifier +4}}]
-                          :range [{:description "Spear"
-                                   :to-hit +4
-                                   :reach {:value 30
-                                           :unit "feet"}
-                                   :hit {:static 10
+                                   :hit {:static 5
                                          :roll-amount 1
                                          :roll-sides 6
-                                         :roll-modifier +4}}]}}
+                                         :roll-modifier +3}}]}}
                
                {:roll-from 94
                 :roll-to 97
                 :type "Ghoul"
-                :xp 0
+                :xp 200
                 :distance -1
                 :initiative-modifier +1
-                :ac 0
-                :hp {:static 8
+                :ac 13
+                :hp {:static 11
                      :roll-amount 2
-                     :roll-sides 8}
-                :skills {:strength 0
-                         :dexterity 0
+                     :roll-sides 10}
+                :skills {:strength 14
+                         :dexterity 14
                          :constitution 0
-                         :intelligence 0
-                         :wisdom 0
-                         :charisma 0}
+                         :intelligence 13
+                         :wisdom 11
+                         :charisma 8}
                 :senses [{:type "Passive Perception"
                           :value "10"
                           :unit ""}
@@ -470,65 +448,45 @@
                           :value "60"
                           :unit "feet"}]
                 :languages [{:type "common"
-                             :description "Common"}
-                            {:type "frogfolk"
-                             :description "Frogfolk, understands some Finnish"}]
-                :weapons {:melee [{:description "Greatclub"
-                                   :to-hit +6
+                             :description "Common"}]
+                :weapons {:melee [{:description "Bite"
+                                   :to-hit +3
                                    :reach {:value 5
                                            :unit "feet"}
-                                   :hit {:static 8
+                                   :hit {:static 5
                                          :roll-amount 1
                                          :roll-sides 8
-                                         :roll-modifier +4}}]
-                          :range [{:description "Spear"
-                                   :to-hit +4
-                                   :reach {:value 30
-                                           :unit "feet"}
-                                   :hit {:static 10
-                                         :roll-amount 1
-                                         :roll-sides 6
-                                         :roll-modifier +4}}]}}
+                                         :roll-modifier +1}}]}}
 
                {:roll-from 98
                 :roll-to 100
                 :type "Zombie"
-                :xp 0
+                :xp 95
                 :distance -1
                 :initiative-modifier +1
-                :ac 0
-                :hp {:static 8
-                     :roll-amount 2
-                     :roll-sides 8}
-                :skills {:strength 0
-                         :dexterity 0
+                :ac 11
+                :hp {:static 7
+                     :roll-amount 1
+                     :roll-sides 12}
+                :skills {:strength 16
+                         :dexterity 9
                          :constitution 0
                          :intelligence 0
-                         :wisdom 0
-                         :charisma 0}
+                         :wisdom 8
+                         :charisma 6}
                 :senses [{:type "Passive Perception"
                           :value "10"
                           :unit ""}
                          {:type "Darkvision"
                           :value "60"
                           :unit "feet"}]
-                :languages [{:type "common"
-                             :description "Common"}
-                            {:type "frogfolk"
-                             :description "Frogfolk, understands some Finnish"}]
-                :weapons {:melee [{:description "Greatclub"
-                                   :to-hit +6
+                :languages [{:type "zombie"
+                             :description "Zombie groans"}]
+                :weapons {:melee [{:description "Slam"
+                                   :to-hit +3
                                    :reach {:value 5
                                            :unit "feet"}
-                                   :hit {:static 8
-                                         :roll-amount 1
-                                         :roll-sides 8
-                                         :roll-modifier +4}}]
-                          :range [{:description "Spear"
-                                   :to-hit +4
-                                   :reach {:value 30
-                                           :unit "feet"}
-                                   :hit {:static 10
+                                   :hit {:static 5
                                          :roll-amount 1
                                          :roll-sides 6
-                                         :roll-modifier +4}}]}}])
+                                         :roll-modifier +2}}]}}])
