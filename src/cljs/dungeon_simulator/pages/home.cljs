@@ -1,9 +1,9 @@
 (ns dungeon-simulator.pages.home
-  (:require [dungeon-simulator.components.title :as title]))
+  (:require [dungeon-simulator.components.progress :as title]))
 
 (defn home []
   [:div
-   [title/render "Dungeon Simulator"]
+   [:h2 "Dungeon Simulator"]
 
    [:div
     [:p "Welcome to Dungeon Simulator! This game is for you, if you like to play dungeon crawlers

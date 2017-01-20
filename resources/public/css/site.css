@@ -39,3 +39,21 @@ a:hover {
 .toggle-button {
   margin-bottom: 20px;
 }
+
+.room-description {
+  padding: 10px;
+  background-color: #eee;
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
+  margin-bottom: 20px;
+}
+
+.npc-head-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  border-bottom: 2px solid #000;
+}
+
+.npc-head {
+  font-weight: bold;
+}
