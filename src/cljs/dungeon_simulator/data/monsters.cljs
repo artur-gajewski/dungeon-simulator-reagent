@@ -29,13 +29,13 @@
                 :languages [{:type "rat"
                              :description "Rat sounds"}]
                 :weapons {:melee [{:description "Bite"
-                                   :to-hit +2
+                                   :to-hit "+2"
                                    :reach {:value 5
                                            :unit "feet"}
                                    :hit {:static 1
                                          :roll-amount 1
                                          :roll-sides 3
-                                         :roll-modifier -1}}]}}
+                                         :roll-modifier "-1"}}]}}
 
                {:roll-from 54
                 :roll-to 57
@@ -65,21 +65,21 @@
                 :languages [{:type "spider"
                              :description "Spider chitter"}]
                 :weapons {:melee [{:description "Bite"
-                                   :to-hit +2
+                                   :to-hit "+2"
                                    :reach {:value 5
                                            :unit "feet"}
                                    :hit {:static 4
                                          :roll-amount 1
                                          :roll-sides 6
-                                         :roll-modifier +2}}]
+                                         :roll-modifier "+2"}}]
                           :range [{:description "Web"
-                                   :to-hit +2
+                                   :to-hit "+2"
                                    :reach {:value 20
                                            :unit "feet"}
                                    :hit {:static 2
                                          :roll-amount 1
                                          :roll-sides 2
-                                         :roll-modifier +1}}]}}
+                                         :roll-modifier "+1"}}]}}
 
                {:roll-from 58
                 :roll-to 61
@@ -109,13 +109,13 @@
                 :languages [{:type "Bat"
                              :description "Bat screams"}]
                 :weapons {:melee [{:description "Bite"
-                                   :to-hit +6
+                                   :to-hit "+6"
                                    :reach {:value 5
                                            :unit "feet"}
                                    :hit {:static 1
                                          :roll-amount 1
                                          :roll-sides 2
-                                         :roll-modifier -1}}]}}
+                                         :roll-modifier "-1"}}]}}
 
                {:roll-from 62
                 :roll-to 65
@@ -142,12 +142,13 @@
                 :languages [{:type "snake"
                              :description "Snake hiss"}]
                 :weapons {:melee [{:description "bite"
-                                   :to-hit +1
+                                   :to-hit "+1"
                                    :reach {:value 5
                                            :unit "feet"}
                                    :hit {:static 3
                                          :roll-amount 1
-                                         :roll-sides 4}}]}}
+                                         :roll-sides 4
+                                         :roll-modifier ""}}]}}
 
                {:roll-from 66
                 :roll-to 69
@@ -174,21 +175,21 @@
                 :languages [{:type "common"
                              :description "Common"}]
                 :weapons {:melee [{:description "Ghost Touch"
-                                   :to-hit +8
+                                   :to-hit "+8"
                                    :reach {:value 5
                                            :unit "feet"}
                                    :hit {:static 6
                                          :roll-amount 1
                                          :roll-sides 10
-                                         :roll-modifier +1}}]
+                                         :roll-modifier "+1"}}]
                           :range [{:description "Ghost Howl"
-                                   :to-hit +20
+                                   :to-hit "+20"
                                    :reach {:value 30
                                            :unit "feet"}
                                    :hit {:static 2
                                          :roll-amount 1
                                          :roll-sides 2
-                                         :roll-modifier +1}}]}}
+                                         :roll-modifier "+1"}}]}}
 
                {:roll-from 70
                 :roll-to 73
@@ -217,20 +218,21 @@
                             {:type "infernal"
                              :description "Infernal demon language"}]
                 :weapons {:melee [{:description "Tailsting"
-                                   :to-hit +4
+                                   :to-hit "+4"
                                    :reach {:value 5
                                            :unit "feet"}
                                    :hit {:static 4
                                          :roll-amount 1
                                          :roll-sides 8
-                                         :roll-modifier +2}}]
+                                         :roll-modifier "+2"}}]
                           :range [{:description "Spark"
-                                   :to-hit +1
+                                   :to-hit "+1"
                                    :reach {:value 30
                                            :unit "feet"}
                                    :hit {:static 2
                                          :roll-amount 1
-                                         :roll-sides 4}}]}}
+                                         :roll-sides 4
+                                         :roll-modifier ""}}]}}
 
                {:roll-from 74
                 :roll-to 77
@@ -257,21 +259,21 @@
                 :languages [{:type "goblin"
                              :description "Goblin language"}]
                 :weapons {:melee [{:description "Short Sword"
-                                   :to-hit +2
+                                   :to-hit "+2"
                                    :reach {:value 5
                                            :unit "feet"}
                                    :hit {:static 2
                                          :roll-amount 1
                                          :roll-sides 4
-                                         :roll-modifier 0}}]
+                                         :roll-modifier ""}}]
                           :range [{:description "Short Bow"
-                                   :to-hit +2
+                                   :to-hit "+2"
                                    :reach {:value 30
                                            :unit "feet"}
                                    :hit {:static 2
                                          :roll-amount 1
                                          :roll-sides 4
-                                         :roll-modifier 0}}]}}
+                                         :roll-modifier ""}}]}}
 
                {:roll-from 78
                 :roll-to 81
@@ -300,21 +302,21 @@
                             {:type "goblin"
                              :description "Goblin language"}]
                 :weapons {:melee [{:description "Longsword"
-                                   :to-hit +2
+                                   :to-hit "+2"
                                    :reach {:value 5
                                            :unit "feet"}
                                    :hit {:static 5
                                          :roll-amount 1
                                          :roll-sides 8
-                                         :roll-modifier +1}}]
+                                         :roll-modifier "+1"}}]
                           :range [{:description "longbow"
-                                   :to-hit +2
+                                   :to-hit "+2"
                                    :reach {:value 30
                                            :unit "feet"}
                                    :hit {:static 5
                                          :roll-amount 1
                                          :roll-sides 8
-                                         :roll-modifier +1}}]}}
+                                         :roll-modifier "+1"}}]}}
 
                {:roll-from 82
                 :roll-to 85
@@ -341,21 +343,21 @@
                 :languages [{:type "draconic"
                              :description "Draconic language, aka. Dragonspeak"}]
                 :weapons {:melee [{:description "Spear"
-                                   :to-hit +1
+                                   :to-hit "+1"
                                    :reach {:value 5
                                            :unit "feet"}
                                    :hit {:static 3
                                          :roll-amount 1
                                          :roll-sides 6
-                                         :roll-modifier -1}}]
+                                         :roll-modifier "-1"}}]
                           :range [{:description "Sling"
-                                   :to-hit +1
+                                   :to-hit "+1"
                                    :reach {:value 30
                                            :unit "feet"}
                                    :hit {:static 1
                                          :roll-amount 1
                                          :roll-sides 3
-                                         :roll-modifier -1}}]}}
+                                         :roll-modifier "-1"}}]}}
 
                {:roll-from 86
                 :roll-to 89
@@ -382,13 +384,13 @@
                 :languages [{:type "skeletal"
                              :description "Doot Doot"}]
                 :weapons {:melee [{:description "Claw"
-                                   :to-hit 0
+                                   :to-hit "0"
                                    :reach {:value 5
                                            :unit "feet"}
                                    :hit {:static 2
                                          :roll-amount 1
                                          :roll-sides 6
-                                         :roll-modifier -1}}]}}
+                                         :roll-modifier "-1"}}]}}
 
                {:roll-from 90
                 :roll-to 93
@@ -417,13 +419,13 @@
                             {:type "orcish"
                              :description "Orcish language"}]
                 :weapons {:melee [{:description "Battleaxe"
-                                   :to-hit +3
+                                   :to-hit "+3"
                                    :reach {:value 5
                                            :unit "feet"}
                                    :hit {:static 5
                                          :roll-amount 1
                                          :roll-sides 6
-                                         :roll-modifier +3}}]}}
+                                         :roll-modifier "+3"}}]}}
                
                {:roll-from 94
                 :roll-to 97
@@ -450,13 +452,13 @@
                 :languages [{:type "common"
                              :description "Common"}]
                 :weapons {:melee [{:description "Bite"
-                                   :to-hit +3
+                                   :to-hit "+3"
                                    :reach {:value 5
                                            :unit "feet"}
                                    :hit {:static 5
                                          :roll-amount 1
                                          :roll-sides 8
-                                         :roll-modifier +1}}]}}
+                                         :roll-modifier "+1"}}]}}
 
                {:roll-from 98
                 :roll-to 100
@@ -483,10 +485,10 @@
                 :languages [{:type "zombie"
                              :description "Zombie groans"}]
                 :weapons {:melee [{:description "Slam"
-                                   :to-hit +3
+                                   :to-hit "+3"
                                    :reach {:value 5
                                            :unit "feet"}
                                    :hit {:static 5
                                          :roll-amount 1
                                          :roll-sides 6
-                                         :roll-modifier +2}}]}}])
+                                         :roll-modifier "+2"}}]}}])

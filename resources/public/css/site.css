@@ -69,3 +69,16 @@ a:hover {
 .npc-head {
   font-weight: bold;
 }
+
+.npc-head-small {
+  font-weight: bold;
+}
+
+.npc-head-weapons {
+  font-size: 1.2em;
+  text-decoration: underline;
+}
+
+.weapon-description {
+  font-style: italic;
+}
