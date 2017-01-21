@@ -1,4 +1,5 @@
-(ns dungeon-simulator.components.legend)
+(ns dungeon-simulator.components.legend
+  (:require [reagent.format :refer [format]]))
 
 (defn render [description monster]
   [:div {:class "room-description"}
@@ -6,5 +7,8 @@
    (when-not (= (-> monster :type) "None")
      [:p
       (str
-        "There is " (-> monster :type) " " (-> monster :distance) " feet from you. If you commence combat, "
-        (-> monster :type) " will attack with the best weapon available concidering it's distance from you.")])])
+        (format "There is %s %s feet from you. If you commence combat, %s will attack with the best weapon available
+                 concidering it's distance from you."
+                (-> monster :type)
+                (-> monster :distance)
+                (-> monster :type)))])])
