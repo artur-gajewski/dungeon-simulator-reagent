@@ -3,12 +3,13 @@
 (def traps [{:roll-from 1
              :roll-to 19
              :type "None"
-             :description "You find no traps here."}
+             :description "You find no traps here. You hear sound in a distance so you might not want to have a break right now."}
 
             {:roll-from 20
              :roll-to 39
              :type "None"
-             :description "The place seems safe and there are no traps."}
+             :description "The place seems safe and there are no traps. This is a perfect moment to sit down for a while
+                           and heal 1d6 hit points."}
 
             {:roll-from 40
              :roll-to 59
@@ -19,7 +20,7 @@
             {:roll-from 60
              :roll-to 79
              :type "None"
-             :description "This section is clear of traps."}
+             :description "This section is clear of traps. Good, who needs them anyways."}
 
             {:roll-from 80
              :roll-to 84
