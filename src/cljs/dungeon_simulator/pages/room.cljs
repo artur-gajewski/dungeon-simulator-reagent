@@ -2,7 +2,8 @@
   (:require [dungeon-simulator.state :as state]
             [dungeon-simulator.components.progress :as progress]
             [dungeon-simulator.components.legend :as legend]
-            [dungeon-simulator.components.monster-description :as monster-description]))
+            [dungeon-simulator.components.monster-description :as monster-description]
+            [dungeon-simulator.components.trap-description :as trap-description]))
 
 (defn room []
   [:div
@@ -16,6 +17,9 @@
 
    (when-not (= (-> @state/monster :type) "None")
     [monster-description/render @state/monster])
+
+   (when (= (-> @state/monster :type) "None")
+    [trap-description/render (-> @state/trap)])
 
    [:div
     (if (= (:type @state/monster) "None")

@@ -52,6 +52,14 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.trap-description {
+  padding: 10px;
+  background-color: #eee;
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
+  margin-bottom: 20px;
+}
+
 .npc-head-title {
   font-size: 1.5em;
   font-weight: bold;

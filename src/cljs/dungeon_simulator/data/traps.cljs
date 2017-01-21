@@ -8,7 +8,7 @@
             {:roll-from 20
              :roll-to 39
              :type "None"
-             :description "The place seems safe."}
+             :description "The place seems safe and there are no traps."}
 
             {:roll-from 40
              :roll-to 59
@@ -19,7 +19,7 @@
             {:roll-from 60
              :roll-to 79
              :type "None"
-             :description "This section is clear."}
+             :description "This section is clear of traps."}
 
             {:roll-from 80
              :roll-to 84
@@ -45,7 +45,7 @@
                            is a drop of four feet and in the bottom of the pit there are metallic spikes."
              :sc "PERCEPTION"
              :dc 10
-             :hp "1d4-1"}])
+             :hp "1d4"}
 
             {:roll-from 98
              :roll-to 99
@@ -62,4 +62,4 @@
                            are in bad shape and there are loose rocks lodged above them."
              :sc "PERCEPTION"
              :dc 13
-             :hp "2d4"}
+             :hp "2d4"}])
