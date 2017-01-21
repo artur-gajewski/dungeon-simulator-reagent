@@ -18,4 +18,4 @@
      "d"
      (-> weapon :hit :roll-sides)
      (-> weapon :hit :roll-modifier)
-     ")."]])
+     ")"]])

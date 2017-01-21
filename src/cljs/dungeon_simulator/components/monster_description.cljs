@@ -25,5 +25,5 @@
 
       (when-not (empty? (-> monster :weapons :melee first))
         (monster-weapon/render "Melee" (-> monster :weapons :melee first)))
-      (when-not (empty? (-> monster :weapons :melee first))
+      (when-not (empty? (-> monster :weapons :range first))
         (monster-weapon/render "Range" (-> monster :weapons :range first)))]]])
