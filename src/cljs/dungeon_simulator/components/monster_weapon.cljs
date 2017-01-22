@@ -8,11 +8,11 @@
     [:span {:class "weapon-description"}
      (-> weapon :description) ": "]
 
-     (format "%s to hit, reach %s %s. Hit: %s (%sd%s%s)"
-             (-> weapon :to-hit)
+     (format "%s to hit, reach %s %s. Hit: %s%s"
+             (tools/format-to-hit-number (-> weapon :to-hit))
              (-> weapon :reach :value)
              (-> weapon :reach :unit)
              (-> weapon :hit :static)
-             (-> weapon :hit :roll-amount)
-             (-> weapon :hit :roll-sides)
-             (-> weapon :hit :roll-modifier))]])
+             (-> (tools/format-roll-text (-> weapon :hit :roll-amount)
+                                         (-> weapon :hit :roll-sides)
+                                         (-> weapon :hit :roll-modifier))))]])
