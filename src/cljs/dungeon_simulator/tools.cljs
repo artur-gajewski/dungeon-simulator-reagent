@@ -29,3 +29,10 @@
             roll-amount
             roll-sides
             modifier)))
+
+(defn roll-initiative-text [character]
+  (let [initiative-modifier (-> character :initiative-modifier)
+        initiative-result (roll 1 20 initiative-modifier)]
+    (format "%s%s"
+            initiative-result
+            (format-roll-text 1 20 initiative-modifier))))
