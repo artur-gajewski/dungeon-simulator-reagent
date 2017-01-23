@@ -16,6 +16,5 @@ pom.xml.asc
 *.log
 /.env
 /.idea
-.idea
-.idea/workspace.xml
-dungeon-simulator.iml
+.idea/
+*.iml
