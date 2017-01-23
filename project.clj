@@ -1,4 +1,4 @@
-(defproject dungeon-simulator "0.1.0-SNAPSHOT"
+(defproject dungeon-simulator "0.1.0"
   :description "Dungeon Simulator for role-playing games"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
