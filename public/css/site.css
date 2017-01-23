@@ -1,11 +1,17 @@
 body {
   padding: 1em;
   padding-top: 0em;
+  background-color: #292929;
 }
 
 .body-container {
   font-family: 'Helvetica Neue', Verdana, Helvetica, Arial, sans-serif;
-  max-width: 600px;
+
+  max-width: 800px;
+  min-width: 200px;
+
+  padding-left: 3em;
+  padding-right: 3em;
   margin: 0 auto;
   -webkit-font-smoothing: antialiased;
   font-size: 1.125em;
@@ -82,4 +88,33 @@ a:hover {
 
 .weapon-description {
   font-style: italic;
+}
+
+.letter {
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  margin: 26px auto 0;
+  padding: 24px;
+  position: relative;
+}
+.letter:before, .letter:after {
+  content: "";
+  height: 98%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+.letter:before {
+  background: #fafafa;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  left: -5px;
+  top: 4px;
+  transform: rotate(-2.5deg);
+}
+.letter:after {
+  background: #f6f6f6;
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+  right: -3px;
+  top: 1px;
+  transform: rotate(1.4deg);
 }
