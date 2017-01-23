@@ -47,7 +47,6 @@
                        {:source-paths ["src" "env/prod/cljs"]
                         :compiler
                         {:output-to "public/js/app.js"
-                         :output-dir "public/js/release"
                          :asset-path   "js/out"
                          :optimizations :advanced
                          :pretty-print false}}}}
