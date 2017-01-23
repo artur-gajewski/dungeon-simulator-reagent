@@ -1,7 +1,7 @@
 body {
   padding: 1em;
   padding-top: 0em;
-  background-color: #292929;
+  background-color: #fff;
 }
 
 .body-container {
@@ -9,13 +9,13 @@ body {
 
   max-width: 800px;
   min-width: 200px;
+  color: #333;
 
-  padding-left: 3em;
-  padding-right: 3em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
   margin: 0 auto;
   -webkit-font-smoothing: antialiased;
   font-size: 1.125em;
-  color: #333;
   line-height: 1.5em;
 }
 
@@ -90,31 +90,57 @@ a:hover {
   font-style: italic;
 }
 
-.letter {
-  background: #fff;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  margin: 26px auto 0;
-  padding: 24px;
-  position: relative;
-}
-.letter:before, .letter:after {
-  content: "";
-  height: 98%;
-  position: absolute;
-  width: 100%;
-  z-index: -1;
-}
-.letter:before {
-  background: #fafafa;
-  box-shadow: 0 0 8px rgba(0,0,0,0.2);
-  left: -5px;
-  top: 4px;
-  transform: rotate(-2.5deg);
-}
-.letter:after {
-  background: #f6f6f6;
-  box-shadow: 0 0 3px rgba(0,0,0,0.2);
-  right: -3px;
-  top: 1px;
-  transform: rotate(1.4deg);
+@media only screen and (min-width: 500px) {
+  body {
+    padding: 1em;
+    padding-top: 0em;
+    background-color: #292929;
+  }
+
+  .body-container {
+    font-family: 'Helvetica Neue', Verdana, Helvetica, Arial, sans-serif;
+
+    max-width: 800px;
+    min-width: 200px;
+    color: #333;
+
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.125em;
+    line-height: 1.5em;
+  }
+
+  .letter {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: 26px auto 0;
+    padding: 24px;
+    position: relative;
+  }
+
+  .letter:before, .letter:after {
+    content: "";
+    height: 98%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .letter:before {
+    background: #fafafa;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    left: -5px;
+    top: 4px;
+    transform: rotate(-2.5deg);
+  }
+
+  .letter:after {
+    background: #f6f6f6;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    right: -3px;
+    top: 1px;
+    transform: rotate(1.4deg);
+  }
 }
