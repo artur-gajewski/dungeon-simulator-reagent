@@ -42,7 +42,7 @@
                          :optimizations :none
                          :pretty-print  true}
                         :figwheel
-                        {:open-urls ["http://localhost:3449/index.html"]}}
+                        {:open-urls ["http://localhost:3449"]}}
                        :release
                        {:source-paths ["src" "env/prod/cljs"]
                         :compiler
