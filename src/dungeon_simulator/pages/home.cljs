@@ -21,5 +21,5 @@
 
     [:p "Enjoy the game and may the dice be in your favor!"]]
 
-   [:div
-    [:a {:href "/room"} "» Start new game"]]])
+   [:div {:class "options"}
+    [:a {:href "/room"} "» Start new adenture"]]])

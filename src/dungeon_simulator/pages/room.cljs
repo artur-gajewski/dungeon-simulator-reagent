@@ -27,4 +27,4 @@
    [:div {:class "options"}
     (if (= (:type @state/monster) "None")
       [:a {:class "continue-link" :href "/room"} "» I'm ready to continue!"]
-      [:a {:class "survive-link" :href "/room"} "» I survived and I am ready to continue!"])]])
+      [:a {:class "survive-link" :href "/room"} "» I survived and I'm ready to continue!"])]])

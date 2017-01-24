@@ -7,7 +7,7 @@
    (when-not (= (-> monster :type) "None")
      [:p
       (str
-       (format "There is %s %s feet from you. If you commence combat, %s will attack with the best weapon available
+       (format "There is %s %s feet from you. If you start combat, %s will attack with the best weapon available
                  concidering it's distance from you."
                (-> monster :type)
                (-> monster :distance)

@@ -29,7 +29,7 @@
            [:span {:class "weapon-description"}
             (render-weapon-info melee-weapon)]]
           [:div
-           [:button {:class "roll-button" :on-click #(swap! monster-rolls assoc :melee-attack (tools/roll 1 20 (-> melee-weapon :to-hit)))} "Roll for attack"]
+           [:button {:class "roll-button space-above" :on-click #(swap! monster-rolls assoc :melee-attack (tools/roll 1 20 (-> melee-weapon :to-hit)))} "Roll for attack"]
            [:span {:class "roll-result"} (-> @monster-rolls :melee-attack)]]
           [:div {:class "space-above space-below"}
            [:button {:class "roll-button" :on-click #(swap! monster-rolls assoc :melee-hp (tools/roll (-> melee-weapon :hit :roll-amount)
@@ -45,7 +45,7 @@
            [:span {:class "weapon-description"}
             (render-weapon-info range-weapon)]]
           [:div
-           [:button {:class "roll-button space-on-top" :on-click #(swap! monster-rolls assoc :range-attack (tools/roll 1 20 (-> range-weapon :to-hit)))} "Roll for attack"]
+           [:button {:class "roll-button space-above" :on-click #(swap! monster-rolls assoc :range-attack (tools/roll 1 20 (-> range-weapon :to-hit)))} "Roll for attack"]
            [:span {:class "roll-result"} (-> @monster-rolls :range-attack)]]
           [:div {:class "space-above space-below"}
            [:button {:class "roll-button" :on-click #(swap! monster-rolls assoc :range-hp (tools/roll (-> range-weapon :hit :roll-amount)
