@@ -9,7 +9,7 @@
   (let [tile (tools/roll-from-data (tools/roll 1 100 0) tiles/tiles)
         monster (tools/roll-from-data (tools/roll 1 100 0) monsters/monsters)
         trap (tools/roll-from-data (tools/roll 1 100 0) traps/traps)
-        monster-distance (+ (rand-int 20) 5)
+        monster-distance (+ (rand-int 26) 4)
         monster-is-aware (rand-int 2)
         monster-rolls {:melee-attack nil
                        :melee-hp nil
