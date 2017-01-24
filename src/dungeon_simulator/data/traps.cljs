@@ -51,7 +51,7 @@
             {:roll-from 98
              :roll-to 99
              :type "FIBS"
-             :description "A small pressure plate is in the ground. When stepped on, a nozzle on the wall launches a torrent of flame."
+             :description "A small pressure plate is in the ground. When stepped on, a nozzle on the wall launches a burst of acid."
              :sc "PERCEPTION"
              :dc 14
              :hp "1d6"}
@@ -60,7 +60,7 @@
              :roll-to 100
              :type "CORO"
              :description "There is a trip wire set up across the place, which is stretched between two support beams. The beams
-                           are in bad shape and there are loose rocks lodged above them."
+                           are in bad shape and there are logs lodged above them."
              :sc "PERCEPTION"
              :dc 13
              :hp "2d4"}])
