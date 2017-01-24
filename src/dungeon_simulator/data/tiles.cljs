@@ -15,7 +15,7 @@
             {:roll-from 21
              :roll-to 30
              :type "LETU"
-             :description "There is a turn to the left ahead of you. You can't see behind it."
+             :description "The dungon turns left."
              :traps-possible false}
 
             {:roll-from 31
