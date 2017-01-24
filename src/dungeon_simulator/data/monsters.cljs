@@ -426,7 +426,7 @@
                                          :roll-amount 1
                                          :roll-sides 6
                                          :roll-modifier 3}}]}}
-               
+
                {:roll-from 94
                 :roll-to 97
                 :type "Ghoul"

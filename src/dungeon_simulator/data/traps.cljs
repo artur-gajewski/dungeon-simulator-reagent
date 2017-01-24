@@ -30,7 +30,7 @@
              :sc "PERCEPTION"
              :dc 15
              :hp "1d4"}
-             
+
             {:roll-from 85
              :roll-to 89
              :type "FANE"
@@ -38,7 +38,7 @@
              :sc "PERCEPTION"
              :dc 11
              :hp "1d4"}
-            
+
             {:roll-from 90
              :roll-to 97
              :type "WFTD"
@@ -55,7 +55,7 @@
              :sc "PERCEPTION"
              :dc 14
              :hp "1d6"}
-            
+
             {:roll-from 100
              :roll-to 100
              :type "CORO"

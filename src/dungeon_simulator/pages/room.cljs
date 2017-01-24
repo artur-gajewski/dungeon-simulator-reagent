@@ -3,6 +3,7 @@
             [dungeon-simulator.components.progress :as progress]
             [dungeon-simulator.components.legend :as legend]
             [dungeon-simulator.components.monster-description :as monster-description]
+            [dungeon-simulator.components.monster-weapons :as monster-weapons]
             [dungeon-simulator.components.trap-description :as trap-description]))
 
 (defn room []
@@ -16,10 +17,12 @@
     (-> @state/monster)]
 
    (when-not (= (-> @state/monster :type) "None")
-    [monster-description/render @state/monster])
+     [:div
+      [monster-description/render @state/monster]
+      [monster-weapons/render @state/monster state/monster-rolls]])
 
    (when (= (-> @state/monster :type) "None")
-    [trap-description/render (-> @state/trap)])
+     [trap-description/render (-> @state/trap)])
 
    [:div
     (if (= (:type @state/monster) "None")

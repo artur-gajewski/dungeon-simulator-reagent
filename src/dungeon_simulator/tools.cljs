@@ -5,7 +5,7 @@
   (let [roll-result (+ (rand-int sides) 1)
         total (* amount roll-result)
         modified (+ total modifier)]
-        modified))
+    modified))
 
 (defn roll-from-data [roll-value data]
   (let [min-found (filter #(>= roll-value (:roll-from %)) data)
@@ -15,16 +15,16 @@
 
 (defn format-to-hit-number [number]
   (let [formatted (cond
-                   (< number 0) number
-                   (> number 0) (str "+" number)
-                   :else 0)]
+                    (< number 0) number
+                    (> number 0) (str "+" number)
+                    :else 0)]
     formatted))
 
 (defn format-roll-text [roll-amount roll-sides roll-modifier]
   (let [modifier (cond
-                  (< roll-modifier 0) (str " " roll-modifier)
-                  (> roll-modifier 0) (str " +" roll-modifier)
-                  :else "")]
+                   (< roll-modifier 0) (str " " roll-modifier)
+                   (> roll-modifier 0) (str " +" roll-modifier)
+                   :else "")]
     (format " (%sd%s%s)"
             roll-amount
             roll-sides

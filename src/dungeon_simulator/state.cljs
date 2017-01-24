@@ -10,3 +10,8 @@
 (defonce monster (reagent/atom {}))
 
 (defonce trap (reagent/atom {}))
+
+(defonce monster-rolls (reagent/atom {:melee-attack nil
+                                      :melee-hp nil
+                                      :range-attack nil
+                                      :range-hp nil}))
