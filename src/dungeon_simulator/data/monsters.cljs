@@ -6,7 +6,7 @@
 
                {:roll-from 50
                 :roll-to 53
-                :type "Rat"
+                :type "a RAT"
                 :xp 80
                 :distance -1
                 :initiative-modifier 1
@@ -39,7 +39,7 @@
 
                {:roll-from 54
                 :roll-to 57
-                :type "Giant Spider"
+                :type "a GIANT SPIDER"
                 :xp 200
                 :distance -1
                 :initiative-modifier 2
@@ -83,7 +83,7 @@
 
                {:roll-from 58
                 :roll-to 61
-                :type "Bat"
+                :type "a BAT"
                 :xp 30
                 :distance -1
                 :initiative-modifier 1
@@ -119,7 +119,7 @@
 
                {:roll-from 62
                 :roll-to 65
-                :type "Snake"
+                :type "a SNAKE"
                 :xp 100
                 :distance -1
                 :initiative-modifier 1
@@ -152,7 +152,7 @@
 
                {:roll-from 66
                 :roll-to 69
-                :type "Ghost"
+                :type "a GHOST"
                 :xp 375
                 :distance -1
                 :initiative-modifier 1
@@ -193,7 +193,7 @@
 
                {:roll-from 70
                 :roll-to 73
-                :type "Imp"
+                :type "an IMP"
                 :xp 150
                 :distance -1
                 :initiative-modifier 1
@@ -236,7 +236,7 @@
 
                {:roll-from 74
                 :roll-to 77
-                :type "Goblin"
+                :type "a GOBLIN"
                 :xp 60
                 :distance -1
                 :initiative-modifier 1
@@ -277,7 +277,7 @@
 
                {:roll-from 78
                 :roll-to 81
-                :type "Hobgoblin"
+                :type "a HOBGOBLIN"
                 :xp 205
                 :distance -1
                 :initiative-modifier 1
@@ -320,7 +320,7 @@
 
                {:roll-from 82
                 :roll-to 85
-                :type "Kobold"
+                :type "a KOBOLD"
                 :xp 90
                 :distance -1
                 :initiative-modifier 1
@@ -361,7 +361,7 @@
 
                {:roll-from 86
                 :roll-to 89
-                :type "Skeleton"
+                :type "a SKELETON"
                 :xp 77
                 :distance -1
                 :initiative-modifier 1
@@ -394,7 +394,7 @@
 
                {:roll-from 90
                 :roll-to 93
-                :type "Orc"
+                :type "an ORC"
                 :xp 155
                 :distance -1
                 :initiative-modifier 1
@@ -429,7 +429,7 @@
 
                {:roll-from 94
                 :roll-to 97
-                :type "Ghoul"
+                :type "a GHOUL"
                 :xp 200
                 :distance -1
                 :initiative-modifier 1
@@ -462,7 +462,7 @@
 
                {:roll-from 98
                 :roll-to 100
-                :type "Zombie"
+                :type "a ZOMBIE"
                 :xp 95
                 :distance -1
                 :initiative-modifier 1
