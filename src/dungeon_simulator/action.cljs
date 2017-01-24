@@ -1,12 +1,14 @@
 (ns dungeon-simulator.action
   (:require [dungeon-simulator.state :as state]
             [dungeon-simulator.data.tiles :as tiles]
+            [dungeon-simulator.data.events :as events]
             [dungeon-simulator.data.traps :as traps]
             [dungeon-simulator.data.monsters :as monsters]
             [dungeon-simulator.tools :as tools]))
 
 (defn create-new-tile []
   (let [tile (tools/roll-from-data (tools/roll 1 100 0) tiles/tiles)
+        event (tools/roll-from-data (tools/roll 1 100 0) events/events)
         monster (tools/roll-from-data (tools/roll 1 100 0) monsters/monsters)
         trap (tools/roll-from-data (tools/roll 1 100 0) traps/traps)
         monster-distance (+ (rand-int 26) 5)
@@ -18,6 +20,7 @@
 
     (reset! state/progress (inc @state/progress))
     (reset! state/tile tile)
+    (reset! state/event event)
     (reset! state/monster monster)
     (reset! state/trap trap)
     (reset! state/monster-rolls monster-rolls)
@@ -26,4 +29,6 @@
 
     (cond
       (= monster-is-aware 0) (swap! state/monster assoc :is-aware false)
-      (= monster-is-aware 1) (swap! state/monster assoc :is-aware true))))
+      (= monster-is-aware 1) (swap! state/monster assoc :is-aware true))
+
+    (.scroll js/window 0 0)))

@@ -5,7 +5,7 @@
 
 (defonce tile (reagent/atom {}))
 
-(defonce action-type (reagent/atom "start"))
+(defonce event (reagent/atom {}))
 
 (defonce monster (reagent/atom {}))
 

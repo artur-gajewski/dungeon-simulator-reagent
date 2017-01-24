@@ -14,6 +14,7 @@
 
    [legend/render
     (-> @state/tile :description)
+    (-> @state/event)
     (-> @state/monster)]
 
    (when-not (= (-> @state/monster :type) "None")

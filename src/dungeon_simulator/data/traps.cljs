@@ -20,7 +20,7 @@
             {:roll-from 60
              :roll-to 79
              :type "None"
-             :description "This section is clear of traps. Good, who needs them anyways."}
+             :description "It seems like this section is clear of traps. Good, who needs them anyways."}
 
             {:roll-from 80
              :roll-to 84
