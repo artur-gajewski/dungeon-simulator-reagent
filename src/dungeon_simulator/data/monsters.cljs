@@ -384,7 +384,7 @@
                 :languages [{:type "skeletal"
                              :description "Doot Doot"}]
                 :weapons {:melee [{:description "Claw"
-                                   :to-hit "0"
+                                   :to-hit 0
                                    :reach {:value 5
                                            :unit "feet"}
                                    :hit {:static 2
