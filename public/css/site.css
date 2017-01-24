@@ -81,6 +81,10 @@ a:hover {
   font-weight: bold;
 }
 
+.weapon-section {
+  padding-top: 12px;
+}
+
 .npc-head-weapons {
   font-size: 1.2em;
   text-decoration: underline;
@@ -88,6 +92,38 @@ a:hover {
 
 .weapon-description {
   font-style: italic;
+}
+
+.roll-button {
+  outline: none;
+  background-color:#768d87;
+  border:1px solid #566963;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:17px;
+  padding: 6px 10px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #2b665e;
+  width: 180px;
+  margin-right: 20px;
+}
+
+.roll-button:hover {
+  background-color:#6c7c7c;
+}
+
+.space-above {
+  margin-top: 10px;
+}
+
+.space-below {
+  margin-bottom: 20px;
+}
+
+.space-on-right {
+  margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 500px) {
