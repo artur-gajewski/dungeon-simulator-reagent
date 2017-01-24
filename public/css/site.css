@@ -1,6 +1,6 @@
 body {
   padding-top: 0em;
-  background-color: #fff;
+  background-color: #E9D1B8;
   background-image: url("http://img15.deviantart.net/cbb9/i/2005/258/c/4/paper_texture_v5_by_bashcorpo.jpg");
 }
 
@@ -36,7 +36,7 @@ h3 {
 
 a {
   text-decoration: none;
-  color: #09f;
+  color: #333;
 }
 
 a:hover {
@@ -48,7 +48,7 @@ a:hover {
 }
 
 .room-description {
-  font-size: 1.5em;
+  font-size: 1.3em;
   margin-bottom: 20px;
 }
 
@@ -57,7 +57,7 @@ a:hover {
 }
 
 .trap-description {
-  font-size: 1.5em;
+  font-size: 1.3em;
   margin-bottom: 20px;
 }
 
@@ -105,7 +105,7 @@ a:hover {
 }
 
 .roll-button:hover {
-  background-color:#6c7c7c;
+  background-color: #6c7c7c;
 }
 
 .space-above {
@@ -123,6 +123,11 @@ a:hover {
 .options {
   margin-top: 50px;
   margin-bottom: 30px;
+}
+
+.options a {
+  font-size: 1.3em;
+  color: #333;
 }
 
 @media only screen and (min-width: 500px) {
@@ -151,10 +156,10 @@ a:hover {
   .letter {
     background-image: url("http://img15.deviantart.net/cbb9/i/2005/258/c/4/paper_texture_v5_by_bashcorpo.jpg");
     background-size: cover;
-    background-color: #fff;
+    background-color: #E9D1B8;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     margin: 26px auto 0;
-    padding: 24px;
+    padding: 44px;
     position: relative;
   }
 
