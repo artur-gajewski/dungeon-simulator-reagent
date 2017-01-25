@@ -29,7 +29,7 @@
              {:roll-from 75
               :roll-to 79
               :type "SPWB"
-              :description "Intricate spiderwebs cover the area and some of it sticks into your face."}
+              :description "Intricate spiderwebs cover the area and some of it sticks into your clothing."}
 
              {:roll-from 80
               :roll-to 84
