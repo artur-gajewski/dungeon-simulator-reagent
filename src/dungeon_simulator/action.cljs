@@ -24,7 +24,6 @@
     (reset! state/monster monster)
     (reset! state/trap trap)
     (reset! state/monster-rolls monster-rolls)
-
     (swap! state/monster assoc :distance monster-distance)
 
     (cond

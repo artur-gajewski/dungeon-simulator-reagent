@@ -33,9 +33,7 @@
        " ("
        (-> monster :hp :roll-amount) "d" (-> monster :hp :roll-sides)
        ")"]]
-
      [:tr
       [:td [:span {:class "npc-head"} "Initiative"] " " (tools/roll-initiative-text monster)]]
-
      [:tr
       [:td [:span {:class "npc-head"} "Challenge"] " " (-> monster :xp) " XP"]]]]])

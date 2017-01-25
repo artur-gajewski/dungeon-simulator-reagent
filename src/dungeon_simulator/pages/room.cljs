@@ -8,23 +8,18 @@
 
 (defn room []
   [:div
-
    [progress/render
     (str "Room #" @state/progress)]
-
    [legend/render
     (-> @state/tile :description)
     (-> @state/event)
     (-> @state/monster)]
-
    (when-not (= (-> @state/monster :type) "None")
      [:div
       [monster-description/render @state/monster]
       [monster-weapons/render @state/monster state/monster-rolls]])
-
    (when (= (-> @state/monster :type) "None")
      [trap-description/render (-> @state/trap)])
-
    [:div {:class "options"}
     (if (= (:type @state/monster) "None")
       [:a {:class "continue-link" :href "/room"} "» I'm ready to continue!"]

@@ -5,7 +5,6 @@
   [:div {:class "trap-description"}
    [:p
     (-> trap :description)]
-
    (when-not (= (-> trap :type) "None")
      [:p
       (format "In order to survive this trap, you need to make a %s CHECK for DC %s. If you fail, you will
