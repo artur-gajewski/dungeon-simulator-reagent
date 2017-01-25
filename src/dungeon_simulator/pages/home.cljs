@@ -19,4 +19,25 @@
     [:p "You won't need monster catalogs, all NPC statistics will be provided upon the confrontation with them."]
     [:p "Stay alive, enjoy the dungeon experience and may the dice be in your favor!"]]
    [:div {:class "options"}
-    [:a {:href "/room"} "» Start new adventure"]]])
+    [:a {:href "/room"} "» Start new adventure"]]
+   [:p
+    [:br]
+    [:form {:action "https://www.paypal.com/cgi-bin/webscr"
+            :method "post"
+            :target "_top"}
+      [:input {:type "hidden"
+               :name "cmd"
+               :value "_s-xclick"}]
+      [:input {:type"hidden"
+               :name "hosted_button_id"
+               :value "TTG3WSLZA2MD2"}]
+      [:input {:type "image"
+               :src "https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
+               :border "0"
+               :name "submit"
+               :alt "Donate and make Dungeon Simulator better!"}]
+      [:img {:alt ""
+             :border "0"
+             :src "https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+             :width "1"
+             :height "1"}]]]])
