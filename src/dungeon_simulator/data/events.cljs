@@ -138,4 +138,74 @@
              :type "DUEN"
              :subtype "wilderness"
              :description "You stumble into a dungeon entrance."
+             :traps-possible false}
+            
+            {:roll-from 1
+             :roll-to 10
+             :type "GUGA"
+             :subtype "town"
+             :description "A guard hut and town gates are here."
+             :traps-possible true}
+            
+            {:roll-from 11
+             :roll-to 20
+             :type "SMAL"
+             :subtype "town"
+             :description "A small alley is in front of you."
+             :traps-possible true}
+
+            {:roll-from 21
+             :roll-to 30
+             :type "MAPL"
+             :subtype "town"
+             :description "You stumble upon the town marketplace."
+             :traps-possible false}
+
+            {:roll-from 31
+             :roll-to 40
+             :type "SHPA"
+             :subtype "town"
+             :description "You find yourself in the shady part of the town."
+             :traps-possible false}
+
+            {:roll-from 41
+             :roll-to 50
+             :type "GRYA"
+             :subtype "town"
+             :description "The town graveyard is in front of you."
+             :traps-possible true}
+
+            {:roll-from 51
+             :roll-to 60
+             :type "MAHO"
+             :subtype "town"
+             :description "Mayor's hourse stands tall in your way."
+             :traps-possible false}
+
+            {:roll-from 61
+             :roll-to 70
+             :type "PRIS"
+             :subtype "town"
+             :description "You find the town prison here."
+             :traps-possible true}
+
+            {:roll-from 71
+             :roll-to 80
+             :type "GRHO"
+             :subtype "town"
+             :description "A small group of houses is here."
+             :traps-possible true}
+
+            {:roll-from 81
+             :roll-to 90
+             :type "TOGA"
+             :subtype "town"
+             :description "There's a tavern here."
+             :traps-possible false}
+
+            {:roll-from 91
+             :roll-to 100
+             :type "TOMI"
+             :subtype "town"
+             :description "The town mines are here, with mining tunnels leading in to the ground."
              :traps-possible false}])
