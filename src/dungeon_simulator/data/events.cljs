@@ -1,52 +1,141 @@
-(ns dungeon-simulator.data.events)
+(ns dungeon-simulator.data.tiles)
 
-(def events [{:roll-from 1
-              :roll-to 59
-              :type "None"}
+(def tiles [{:roll-from 1
+             :roll-to 10
+             :type "STRA"
+             :subtype "dungeon"
+             :description "You arrive at a straight tunnel."
+             :traps-possible true}
 
-             {:roll-from 60
-              :roll-to 62
-              :type "CRTU"
-              :description "There is a crumbled tunnel leading away from here, but it's completely
-                            inaccessible."}
+            {:roll-from 11
+             :roll-to 20
+             :type "WICO"
+             :subtype "dungeon"
+             :description "You find a widening corridor in front of you."
+             :traps-possible true}
 
-             {:roll-from 63
-              :roll-to 66
-              :type "TBCH"
-              :description "You can see a table and a set of chairs here."}
+            {:roll-from 21
+             :roll-to 30
+             :type "LETU"
+             :subtype "dungeon"
+             :description "The dungon turns left."
+             :traps-possible false}
 
-             {:roll-from 67
-              :roll-to 69
-              :type "TWTR"
-              :description "Two lit torches are visible on the walls. Something has been here not long ago."}
+            {:roll-from 31
+             :roll-to 40
+             :type "RITU"
+             :subtype "dungeon"
+             :description "Tunnel turns right, but you can't see what's beyond the corner."
+             :traps-possible false}
 
-             {:roll-from 70
-              :roll-to 74
-              :type "MOLD"
-              :description "The area is almost completely covered with mold and the air seems moist. You can hear
-                            a dripping sound in the other side of the room."}
+            {:roll-from 41
+             :roll-to 50
+             :type "NACO"
+             :subtype "dungeon"
+             :description "A narrowing corridor is in front of you."
+             :traps-possible true}
 
-             {:roll-from 75
-              :roll-to 79
-              :type "SPWB"
-              :description "Intricate spiderwebs cover the area and some of it sticks into your clothing."}
+            {:roll-from 51
+             :roll-to 60
+             :type "CIRO"
+             :subtype "dungeon"
+             :description "You arrive at a circular room."
+             :traps-possible false}
 
-             {:roll-from 80
-              :roll-to 84
-              :type "LCDR"
-              :description "You can see a door with a lock in the area."}
+            {:roll-from 61
+             :roll-to 70
+             :type "UPST"
+             :subtype "dungeon"
+             :description "You find stairs leading upwards to a dungeon exit to wilderness."
+             :traps-possible true}
 
-             {:roll-from 85
-              :roll-to 89
-              :type "LIBR"
-              :description "You feel a light breeze hit your face from the area ahead of you."}
+            {:roll-from 71
+             :roll-to 80
+             :type "DOST"
+             :subtype "dungeon"
+             :description "There are stairs leading downwards."
+             :traps-possible true}
 
-             {:roll-from 90
-              :roll-to 98
-              :type "VRDK"
-              :description "It's very dark and your gut feeling says there is something in your vicinity."}
+            {:roll-from 81
+             :roll-to 90
+             :type "HURO"
+             :subtype "dungeon"
+             :description "You find yourself in a huge cavernous room."
+             :traps-possible false}
 
-             {:roll-from 99
-              :roll-to 100
-              :type "TRCH"
-              :description "You find a treasure chest!"}])
+            {:roll-from 91
+             :roll-to 100
+             :type "LARO"
+             :subtype "dungeon"
+             :description "You arrive at a large room."
+             :traps-possible false}
+            
+            {:roll-from 1
+             :roll-to 10
+             :type "STPA"
+             :subtype "wilderness"
+             :description "You follow a straight path through the forest."
+             :traps-possible true}
+            
+            {:roll-from 11
+             :roll-to 20
+             :type "FOCL"
+             :subtype "wilderness"
+             :description "You find a small forest clearing."
+             :traps-possible true}
+
+            {:roll-from 21
+             :roll-to 30
+             :type "PALE"
+             :subtype "wilderness"
+             :description "The path turns left in a thick forest."
+             :traps-possible false}
+
+            {:roll-from 31
+             :roll-to 40
+             :type "PARI"
+             :subtype "wilderness"
+             :description "You follow the path that steers right."
+             :traps-possible false}
+
+            {:roll-from 41
+             :roll-to 50
+             :type "SMHU"
+             :subtype "wilderness"
+             :description "You find a small hut in the forest."
+             :traps-possible true}
+
+            {:roll-from 51
+             :roll-to 60
+             :type "HUCA"
+             :subtype "wilderness"
+             :description "There's a hunters cabin here."
+             :traps-possible false}
+
+            {:roll-from 61
+             :roll-to 70
+             :type "STHI"
+             :subtype "wilderness"
+             :description "You climb a steep hill with almost no forestation."
+             :traps-possible true}
+
+            {:roll-from 71
+             :roll-to 80
+             :type "CAVE"
+             :subtype "wilderness"
+             :description "You find a small cave."
+             :traps-possible true}
+
+            {:roll-from 81
+             :roll-to 90
+             :type "TOGA"
+             :subtype "wilderness"
+             :description "A small gate comes to your view when the forest suddenly ends, leading to a small town."
+             :traps-possible false}
+
+            {:roll-from 91
+             :roll-to 100
+             :type "DUEN"
+             :subtype "wilderness"
+             :description "You stumble into a dungeon entrance."
+             :traps-possible false}])
