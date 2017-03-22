@@ -17,7 +17,8 @@
     [:p "Once you click below link, you start a running dungeon adventure and as such, it has no 'Save' option.
          If you return to Dungeon Simulator at some point, a new adventure will begin from the scratch."]
     [:p "You won't need monster catalogs, all NPC statistics will be provided upon the confrontation with them."]
-    [:p "Stay alive, enjoy the dungeon experience and may the dice be in your favor!"]]
+    [:p "Stay alive, enjoy the dungeon experience and may the dice be in your favor!"]
+    [:p "- Artur Gajewski & Juhana Ovaska"]]
    [:div {:class "options"}
     [:a {:href "/room"} "» Start new adventure"]]
    [:p
