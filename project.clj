@@ -6,6 +6,7 @@
 
   :dependencies [[org.clojure/clojure "1.8.0" :scope "provided"]
                  [org.clojure/clojurescript "1.9.229" :scope "provided"]
+                 [cljs-http "0.1.39"]
                  [reagent "0.6.0"]
                  [reagent-forms "0.5.25"]
                  [reagent-utils "0.2.0"]

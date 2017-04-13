@@ -7,8 +7,12 @@
 
 (defn create-routes []
   (secretary/defroute "/" []
-    (session/put! :current-page #'home))
+                      (session/put! :current-page #'home))
+
+  (secretary/defroute "/load/:module-name" [module-name query-params]
+                      (action/get-module module-name)
+                      (session/put! :current-page #'home))
 
   (secretary/defroute "/room" []
-    (action/create-new-tile)
-    (session/put! :current-page #'room)))
+                      (action/create-new-tile)
+                      (session/put! :current-page #'room)))

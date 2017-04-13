@@ -1,11 +1,13 @@
 (ns dungeon-simulator.state
   (:require [reagent.core :as reagent :refer [atom]]))
 
+(defonce module (reagent/atom nil))
+
 (defonce progress (reagent/atom 0))
 
-(defonce tile (reagent/atom {}))
+(defonce title (reagent/atom {}))
 
-(defonce event (reagent/atom {}))
+(defonce room (reagent/atom {}))
 
 (defonce monster (reagent/atom {}))
 
